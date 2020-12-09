@@ -1,0 +1,32 @@
+.tweet {
+  position: relative;
+
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+
+    h5 {
+      margin: 0;
+    }
+
+    svg {
+      &:hover {
+        cursor: pointer;
+        fill: red;
+      }
+    }
+  }
+
+  &-date {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 12px;
+  }
+
+  &-body {
+    text-align: left;
+  }
+}
